@@ -1,4 +1,4 @@
-function fizzBuzz(number) {
+fizzBuzz = function(number) {
     
     if (number%3 === 0 && number%5 === 0) {
         return "FizzBuzz";
@@ -10,6 +10,6 @@ function fizzBuzz(number) {
         return "Buzz";
     }
     else {
-        return (number);
+        return number;
     } 
 }
